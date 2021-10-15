@@ -1,0 +1,45 @@
+{
+    "startAt": null,
+    "nextServiceList": [{
+        "nextServiceName": "BestShotPerson",
+        "nextDirectoryOfService": "/home/latona/zeus/Runtime/best-shot-person/",
+        "nextRuntime": {
+            "type": "python",
+            "run": "main.py"
+        },
+        "nextServiceDevice": "zeus"
+    }],
+    "priorSuccess": true,
+    "priorServiceName": "",
+    "priorDirectoryOfService": "",
+    "priorRuntime": {
+        "type": "",
+        "run": ""
+    },
+    "transactionCodes": {
+        "transactionCode0": "",
+        "transactionCode1": "",
+        "transactionCode2": ""
+    },
+    "inputFileName": "/home/latona/zeus/Runtime/object-detection-from-images/ObjectDetectionClient/file/output",
+    "intputHeader": {
+        "type": "file",
+        "content": "object-json"
+    },
+    "outputHeader": {
+        "type": "",
+        "content": ""
+    },
+    "outputFileName": "",
+    "finishAt": null,
+    "metadata": [
+        {
+            "key": "jpeg_path",
+            "value": "/home/latona/zeus/Runtime/capture-depth-from-depth-sensor/file/output"
+        },
+        {
+            "key": "object_json_path",
+            "value": "/home/latona/zeus/Runtime/object-detection-from-images/ObjectDetectionClient/file/output"
+        }
+    ]
+}
